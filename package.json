@@ -1,0 +1,23 @@
+{
+  "name": "modulo-4",
+  "version": "1.0.0",
+  "description": "Contenido del modulo 4 anatomia de un sitio web, incluye proyecto y practica integradora por clase.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "nodemon"
+  ],
+  "author": "Abraham Montelongo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

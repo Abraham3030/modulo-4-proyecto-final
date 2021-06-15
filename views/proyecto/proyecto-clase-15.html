@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/117b0fb8d8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/proyecto/proyecto-clase-15.css">
+    <title>Proyecto clase 15</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img src="/images/clase-14/logo-mercado-liebre.svg" class="logo">
+            <h2 class="copy-header">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
+        </div>
+
+        <a href="#" class="hamburguer-button">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <nav class="main-navbar">
+            <ul class="left-navbar">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <ul class="right-navbar">
+                <li><a href="#">Creá tu cuenta <i class="fas fa-credit-card"></i></a></li>
+                <li><a href="#">Ingresá</a></li>
+                <li><a href="#">Mis compras</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="/crear-producto" method="POST" class="create-form">
+            <div class="control-formulario">
+                <label for="">Nombre del producto</label>
+                <input type="text" name="nombre" class="control"/>
+            </div>
+            <div class="control-formulario">
+                <label for="">Precio: </label>
+                <input type="text" name="precio" placeholder="123.56" class="control"/>
+            </div>
+            <div class="control-formulario">
+                <label for="">Categoria</label>
+                <select name="categoria" class="control">
+                    <option value="hogar">Hogar</option>
+                    <option value="electro">Electro</option>
+                    <option value="indumentaria">Indumentaria</option>
+                </select>
+            </div>
+            <div class="control-formulario">
+                <label for="">Ciudad</label>
+                <select name="categoria" class="control">
+                    <option value="cdmx">CDMX</option>
+                    <option value="edomex">Edo. México</option>
+                    <option value="queretaro">Queretaro</option>
+                </select>
+            </div>
+            <div class="control-formulario">
+                <label for="">Descripcion del producto</label>
+                <textarea name="descripcion" class="control"></textarea>
+            </div>
+            <div class="control-formulario">
+                <label for="">Esta en oferta</label>
+                <input type="radio" name="enOferta" />
+            </div>
+            
+            <button type="reset" class="boton-formulario">Borrar</button>
+            <button type="#submit" class="boton-formulario">Guardar</button>
+        </form>
+    </main>
+</body>
+</html>

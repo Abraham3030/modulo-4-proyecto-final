@@ -48,6 +48,12 @@ app.get('/proyecto-clase-15', (req,res) => {
 app.get('/practica-clase-15', (req,res) => {
     res.sendFile('/practica-clase-15.html', {root: 'views/practica'})
 });
+app.get('/login', (req,res) => {
+    res.sendFile('/login-clase-15.html', {root: 'views/practica'})
+});
+app.get('/register', (req,res) => {
+    res.sendFile('/register-clase-15.html', {root: 'views/practica'})
+});
 
 // Clase 16
 app.get('/proyecto-clase-16', (req,res) => {

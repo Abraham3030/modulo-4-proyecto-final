@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    
+    background-color: #EAC926;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.header-mercado-liebre {
+    margin: 0 5%;
+}
+header img {
+    max-width: 200px;
+}
+header ul {
+    list-style: none;
+    margin-left: -40px;
+}
+
+header ul li {
+    
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    display: none;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.hamburguer-button {
+    background-color: #03264C;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    
+}
+
+
+
+.cuerpos-de-texto{
+    font-size: 12px;
+}
+.titulares {
+    font-size: 24px;
+}
+.precios {
+    font-size: 18px;
+}
+.descuentos, .descripciones {
+    font-size: 16px;
+}
+
+
+main section div img{
+    width: 100%;
+}
+
+footer{
+    margin: 0 20px;
+}
+
+footer p{
+    font-size: 18px;
+}
+.contenido-articulos i {
+    color: blue;
+    font-size: 4em;
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+}
+
+.contenido-articulos {
+    text-align: center;
+   
+}
+
+.espacio {
+    margin: 0px;
+}
+
+.copy {
+    margin-top: 60px;
+}
+

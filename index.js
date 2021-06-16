@@ -62,6 +62,12 @@ app.get('/proyecto-clase-16', (req,res) => {
 app.get('/practica-clase-16', (req,res) => {
     res.sendFile('/practica-clase-16.html', {root: 'views/practica'})
 });
+app.get('/Mercado-Liebre', (req,res) => {
+    res.sendFile('/practica-clase-16.html', {root: 'views/practica'})
+});
+app.post('/Mercado-Liebre', (req,res) => {
+    res.sendFile('/practica-clase-16.html', {root: 'views/practica'})
+});
 
 
 

@@ -43,12 +43,22 @@ header img {
 
 .search{
     width: 50%;
+    border-radius: 3px;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .search:focus {
+    border: 0;
     outline-width: 0;
+}
+
+.boton-search {
+    border: 0;
+    background-color: white;
+    color: rgba(0,0,0,0.5);
+    padding: 0;
 }
 
 .compra{
@@ -58,9 +68,13 @@ header img {
 }
 
 .buscador {
+    outline: none;
     display: flex;
     flex-direction: row;
     width: 100%;
+    border-radius: 3px;
+    border: 0;
+    padding: 10px 0;
 }
 
 header ul {
@@ -87,7 +101,12 @@ header ul li a{
     width: 100%;
 }
 
+.banner {
+    
+    background-color: #ebebeb;
+}
 .banner img{
+    
     width: 100%;
 }
 
@@ -127,9 +146,16 @@ header ul li a{
 }
 
 main {
+    border: solid #ebebeb 1px;
+    background-color: #ebebeb;
+    padding-bottom: 20px;
     
-    width: 90%;
+    
+}
+.contendor-main {
     margin: 0 5%;
+    width: 90%;
+    
 }
 main section article img{
     width: 100%;
@@ -138,8 +164,12 @@ main section article {
     
     margin: 10px 0;
 }
+.caja-box-shadow {
+    background-color: white;
+}
 .caja {
-    border: 5px solid #ebebeb;
+    
+    border: 2px solid #ebebeb;
     margin:  15px;
     padding: 30px 20px 0 0;
     position: relative;
@@ -172,6 +202,7 @@ main section div i  {
 }
 
 footer{
+    background-color: white;
     margin: 0 20px;
 }
 
@@ -219,6 +250,10 @@ footer p{
         
         width: 33%;
         
+    }
+    .buscador {
+        border: 0;
+        padding: 10px 0;
     }
 
     .banner img{

@@ -37,6 +37,9 @@ header {
     text-decoration: none;
     color: black;
 }
+.subtitulos a:hover{
+    color: red;
+}
 
 
 .list {
@@ -80,6 +83,11 @@ p{
 .fondo-img img{
     width: 100%;
 
+}
+
+.img img {
+    
+    width: 50%;
 }
 
 @media (min-width: 768px){

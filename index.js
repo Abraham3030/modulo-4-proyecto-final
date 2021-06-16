@@ -1,7 +1,7 @@
 const express = require('express');
 const path    = require('path');
 const app = express();
-const PORT = 3000;
+const PORT      = process.env.PORT || 3000;
 const publicPath = path.join(__dirname, './public');
 app.use( express.static( publicPath ));
 
@@ -73,5 +73,5 @@ app.post('/Mercado-Liebre', (req,res) => {
 
 
 app.listen( PORT, () => {
-    console.log('Servidor corriendo en el puerto 3000');
+    console.log('Servidor corriendo en el puerto 3000', PORT);
 });
